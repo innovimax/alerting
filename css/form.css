@@ -1,0 +1,12 @@
+
+.control .guide {font-size: 80%;color: #999;}
+
+.control input, 
+.control select, 
+.control textarea {font-size: 110%;}
+
+.control .label label { font-weight: bold;}
+ div.control {clear:both;margin:1em 0pt;overflow:hidden;}div.control .label {display:block;float:left;text-align:right;width:20%;}div.control .input {padding-left:22%;width:78%;}div.control .guide {margin:0.5em 0pt;}div.control .label .guide {margin-left:2em;}div.control input, div.control textarea, div.control select {display:block;margin:0;width:99%;}
+div.control select {
+width: 100%;
+}div.control input[type="checkbox"], div.control input[type="radio"], div.control input[type="file"] {display:inline;font-size:inherit;width:auto;}div.control input:focus, div.control textarea:focus, div.control select:focus {}div.control textarea {height:4em;}

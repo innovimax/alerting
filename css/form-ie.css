@@ -1,0 +1,31 @@
+
+div.control {
+    width: 100%;
+}
+div.control .label {
+}
+.input {
+}
+div.control .input, div.control .guide {
+    width: 77%;
+    padding-left: 0;
+    margin-left: 2%;
+}
+div.control input.checkbox,
+div.control input.radio,
+div.control input.file {
+    display: inline;
+	border: none;
+	width: auto;
+}
+.clear { clear: both; display: none; }
+div.control select {  
+	margin-left: 2%; 
+	width: 100%;
+}
+.control .label label {
+margin-top: 4px;
+}
+div.label label {
+	line-height: 1.5;
+}
